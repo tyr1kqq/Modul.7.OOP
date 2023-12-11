@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul.7.OOP", "Modul.7.OOP\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7.1.14.Modul.7", "7.1.14.Modul.7\7.1.14.Modul.7.csproj", "{7D8C7715-6604-4C90-AB1B-8A120FDD3446}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pereopredelenie", "pereopredelenie\pereopredelenie.csproj", "{D201C60E-D6C0-48A0-9107-BFDEA373F897}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pereopredelenie", "pereopredelenie\pereopredelenie.csproj", "{D201C60E-D6C0-48A0-9107-BFDEA373F897}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Citizen.CivilServant.President", "Citizen.CivilServant.President\Citizen.CivilServant.President.csproj", "{9681FD45-20CA-4657-B371-59280FC96A02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Citizen.CivilServant.President", "Citizen.CivilServant.President\Citizen.CivilServant.President.csproj", "{9681FD45-20CA-4657-B371-59280FC96A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sokritie", "Sokritie\Sokritie.csproj", "{BE996915-E038-4B65-9856-DB093B601D1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9681FD45-20CA-4657-B371-59280FC96A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9681FD45-20CA-4657-B371-59280FC96A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9681FD45-20CA-4657-B371-59280FC96A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE996915-E038-4B65-9856-DB093B601D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE996915-E038-4B65-9856-DB093B601D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE996915-E038-4B65-9856-DB093B601D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE996915-E038-4B65-9856-DB093B601D1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
