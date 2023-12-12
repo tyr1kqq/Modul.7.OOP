@@ -1,4 +1,6 @@
-﻿namespace Vector
+﻿using System.Data.Common;
+
+namespace Vector
 {
     internal class Program
     {
@@ -17,12 +19,24 @@
         public int x;
         public int y;
 
-        public Vector Add(Vector second)
+        public static Vector operator + (Vector a , Vector b)
         {
             return new Vector
             {
-                x = this.x + second.x,
-                y = this.y + second.y
+                x = a.x + b.x,
+                y = a.y + b.y
+            };
+        }
+    }
+    class Obj
+    {
+        public int value;
+        
+        public static Obj operator + (Obj a , Obj b)
+        {
+            return new Obj
+            {
+                value = a.value + b.value
             };
         }
     }
